@@ -1,0 +1,78 @@
+#a{position:absolute; left:0%; top:0%; height:15%; width:70%; color:; 
+									border-radius:0px 0px 30px 0px; box-shadow:4px 4px 11px 7px;opacity:;}
+	#a10{position:absolute; left:20%; top:50%; height:32%; width:13%;  color:black;
+						 border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px green;padding-top:0.6%; }
+	#a11{position:absolute; left:35%; top:50%; height:32%; width:13%;  color:black;
+						 border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px green;padding-top:0.6%;}
+	#a12{position:absolute; left:50%; top:50%; height:32%; width:13%;  color:black; 
+						border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px green;padding-top:0.6%;}
+	#a13{position:absolute; left:65%; top:50%; height:32%; width:13%;  color:black;
+						border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px green;padding-top:0.6%;}
+	#a14{position:absolute; left:80%; top:50%; height:32%; width:13%;  color:black;
+						border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px green;padding-top:0.6%;}
+						a{text-decoration:none; color:white; text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px green;}
+						a:hover{text-decoration:none; color:white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+	#a10:hover{position:absolute; left:20%; top:50%; height:32%; width:13%;  color:black;padding-top:0.6%;
+				border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px blue;}
+	#a11:hover{position:absolute; left:35%; top:50%; height:32%; width:13%;  color:black;padding-top:0.6%;
+				border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px blue;}
+	#a12:hover{position:absolute; left:50%; top:50%; height:32%; width:13%;  color:black;padding-top:0.6%;
+				border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px blue;}
+	#a13:hover{position:absolute; left:65%; top:50%; height:32%; width:13%;  color:black;padding-top:0.6%;
+				border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px blue;}
+	#a14:hover{position:absolute; left:80%; top:50%; height:32%; width:13%;  color:black;padding-top:0.6%;
+				border-radius:0px 0px 15px 0px; box-shadow:3px 3px 24px 0px blue;}					
+#a15{position:absolute; left:1%; top:0%; height:100%; width:18%; background-color:; color:black; border-radius:5px;}	
+#a606{position:absolute; left:14%; top:1%; height:5%; width:30%; color:white; text-shadow: 1px 1px 2px green, 0 0 25px green, 0 0 5px red;}	
+#a1{position:absolute; left:70%; top:0%; height:15%; width:30%;  background-color:green; }
+#a7{position:absolute; left:5%; top:17%; height:42%; width:90%; background-color:;animation:d1 infinite 10s;}
+@keyframes d1
+	{ 
+	0%{width:0%;}
+	25%{width:90%;}  
+	75%{width:90%;} 
+	100%{width:0%;}
+	}
+#a8{position:absolute; left:0%; top:15%; height:47%; width:5%; background-color:; }
+#a9{position:absolute; left:95%; top:15%; height:47%; width:5%; background-color:;}
+#form1 input{width:200px; border-radius:5px; }
+#form1 button{border-radius:3px; }
+#form1 button:hover{border-radius:3px; background:linear-gradient(0deg, #e6ffe6,#00ff00,#006600 );}
+
+	#m1{position:absolute; top:76%; left:5%; height:67%; width:90%; background-color:; border-radius:0px 0px 10px 10px;
+	box-shadow:;}
+#a23{position:absolute; left:0.5%; top:0%; height:100%; width:19%; background-color:#008800; border-radius:10px;box-shadow:0px 1px 0px 1px; }
+#a24{position:absolute; left:20.5%; top:0%; height:100%; width:19%; background-color:#008800; border-radius:10px;box-shadow:0px 1px 0px 1px; }
+#a25{position:absolute; left:40.5%; top:0%; height:100%; width:19%; background-color:#008800; border-radius:10px;box-shadow:0px 1px 0px 1px; }
+#a26{position:absolute; left:60.5%; top:0%; height:100%; width:19%; background-color:#008800; border-radius:10px;box-shadow:0px 1px 0px 1px; }
+#a27{position:absolute; left:80.5%; top:0%; height:100%; width:19%; background-color:#008800; border-radius:10px;box-shadow:0px 1px 0px 1px; }
+
+#a28{position:absolute; left:2%; top:10%; height:30%; width:98%; background-color:#004d00; border-radius:10px 10px 0px 0px; overflow:hidden;}
+#a29{position:absolute; left:2%; top:10%; height:30%; width:98%; background-color:#004d00; border-radius:10px 10px 0px 0px; overflow:hidden;}
+#a30{position:absolute; left:2%; top:10%; height:30%; width:98%; background-color:#004d00; border-radius:10px 10px 0px 0px; overflow:hidden;}
+#a31{position:absolute; left:2%; top:10%; height:30%; width:98%; background-color:#004d00; border-radius:10px 10px 0px 0px; overflow:hidden;}
+#a32{position:absolute; left:2%; top:10%; height:30%; width:98%; background-color:#004d00; border-radius:10px 10px 0px 0px; overflow:hidden;}
+
+	#a17{position:absolute; left:2%; top:40%; height:60%; width:98%; background-color:#ccffcc; border-radius:0px 0px 10px 10px;box-shadow:0px 1px 0px 1px;}
+	#a18{position:absolute; left:2%; top:40%; height:60%; width:98%; background-color:#ccffcc; border-radius:0px 0px 10px 10px;box-shadow:0px 1px 0px 1px;}
+	#a19{position:absolute; left:2%; top:40%; height:60%; width:98%; background-color:#ccffcc; border-radius:0px 0px 10px 10px;box-shadow:0px 1px 0px 1px;}
+	#a20{position:absolute; left:2%; top:40%; height:60%; width:98%; background-color:#ccffcc; border-radius:0px 0px 10px 10px;x-shadow:0px 1px 0px 1px;}
+	#a21{position:absolute; left:2%; top:40%; height:60%; width:98%; background-color:#ccffcc; border-radius:0px 0px 10px 10px;box-shadow:0px 1px 0px 1px;}
+		#a17:hover{position:absolute; background:linear-gradient(0deg, #e6ffe6,#00ff00,#009900 ); border-radius:0px 0px 10px 10px; box-shadow:0px 0px 20px 3px;}
+		#a18:hover{position:absolute; background:linear-gradient(0deg, #e6ffe6,#00ff00,#009900 ); border-radius:0px 0px 10px 10px; box-shadow:0px 0px 20px 3px;}
+		#a19:hover{position:absolute; background:linear-gradient(0deg, #e6ffe6,#00ff00,#009900 ); border-radius:0px 0px 10px 10px; box-shadow:0px 0px 20px 3px;}
+		#a20:hover{position:absolute; background:linear-gradient(0deg, #e6ffe6,#00ff00,#009900 ); border-radius:0px 0px 10px 10px; box-shadow:0px 0px 20px 3px;}
+		#a21:hover{position:absolute; background:linear-gradient(0deg, #e6ffe6,#00ff00,#009900 ); border-radius:0px 0px 10px 10px; box-shadow:0px 0px 20px 3px;}
+
+#a22{position:absolute; left:6%; top:143.5%; height:17%; width:88%; background-color:#bdf2a0;}
+#a33{position:absolute; left:20%; top:60%; height:15%; width:60%;background-color:#99ffcc;}
+#a34{position:fixed; left:0%; top:95%; width:100%; height:5%; padding-top:%; padding-bottom:1%; background-color:#99ffcc;}
+#ss1{position:absolute; left:15%; top:154%; width:70%; height:42%; }
+#aa22{position:absolute; left:0%; top:188%; height:18%; width:100%; background-color:#659f62;}
+
+#b4{position:absolute; left:5%; top:17%; height:8%; width:90%; background-color:;}
+#b5{position:absolute; left:5%; top:22%; height:25%; width:90%; background-color:lime;}
+#b6{position:absolute; left:20%; top:48%; height:50%; width:30%; background:linear-gradient(0deg, black,#494a52,black );box-shadow:10px 5px 14px 0px blue;}
+#di{position:absolute; left:50%; top:48%; height:50%; width:30%; background:linear-gradient(0deg, black,#494a52,black );box-shadow:10px 5px 14px 0px blue;}
+#form3 button{border-radius:3px; position:absolute; left:70%; top:285;}
+#form3 button:hover{border-radius:3px; background:linear-gradient(0deg, #e6ffe6,#00ff00,#006600 );}

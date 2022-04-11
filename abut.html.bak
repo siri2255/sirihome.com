@@ -1,0 +1,48 @@
+<html>
+<head><title>ABOUT US</title></head>
+<body><link rel="stylesheet" href="css1.css">
+	<script>
+
+	</script>
+<style>
+#abt1{position:absolute; left:5%; top:22%; height:30%; width:90%; background-color:lime;}
+#abt2{position:absolute; left:5%; top:53%; height:45%; width:25%; background-color:red;}
+#abt3{position:absolute; left:30%; top:53%; height:45%; width:65%; background-color:blue;}
+#abt4{position:absolute; left:5%; top:99%; height:20%; width:90%; background-color:green;}
+
+
+</style>
+<div id="a1"><img src="photo/call.jpg" width="100%" height="100%"/></div><div id="a606"><font size="6px" face="">Quick Home Reach service</font></div>
+<center>
+<div id="abt1"><img src="abt.jpg" width="100%" height="100%"/>
+</div>
+<div id="abt2"><img src="sss.jpg" width="100%" height="100%"/></div>
+<div id="abt3"><font color="black" size="5">We are able to provide you each and every types of services 
+		<br>
+			Any type of electronic machine, electric work, computer, dish setting,
+			plumber's work, You can call us at this number for repair and installation.
+			Our technicians will arrive at the address given by you within 2 hours.
+			And they will help you at a very low cost....
+		<br>
+			</font></div>
+<div id="abt4"><font color="black" size="8">folow us</font></div>
+<div id="abt5"></div>
+<div id="abt6"></div>
+<div id="abt7"></div>
+<div id="abt8"></div>
+<div id="abt9"></div>
+<div id="b4"><marquee scrollamount="4"><strong><font face="" size="5px">if have your any complan so your contact us .. and we are resolve that emidiatly
+					</font>
+			</strong>
+	</marquee></div>
+
+<div id="a">
+	<div id="a10"><big><strong><a href="index.html">HOME</a></strong></big></div>
+	<div id="a11"><big><strong><a href="service.html">SERVICE</a></strong></big></div>
+	<div id="a12"><big><strong><a href="contact.html">CONTACT</a></strong></big></div>
+	<div id="a13"><big><strong><a href="abut.html">ABOUT US</a></strong></big></div>
+	<div id="a14"><big><strong><a href="job.html">JOB</a></strong></div>
+	<div id="a15"><img src="hlp.png" height="100%" width="100%"/></div>
+	</div></center>
+</body>
+</html>

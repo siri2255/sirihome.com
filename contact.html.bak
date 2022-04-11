@@ -1,0 +1,120 @@
+<html>
+<head><title>contact</title><link rel="shortcut icon" href="photo/h.jpg"/></head>
+<body>
+<link rel="stylesheet" href="css1.css"/>
+	<script>
+function checkname()
+	{
+	var n1,nc1,vn1;
+	n1=document.getElementById("n1");
+	nc1=/^[a-zA-Z ]+$/;
+	vn1=document.getElementById("n1").value;
+	if(!n1.value.match(nc1) || vn1.charAt(0)==' ')
+	{
+	document.getElementById("ns1").innerHTML="**check name";
+	return 1;
+	}
+	else
+	{
+	document.getElementById("ns1").innerHTML="";
+	return 0;
+	}
+	}
+		function checknumber()
+		{
+		var n1,nc1;
+		n1=document.getElementById("p12");
+		nc1=/^[0-9]{10,10}$/;
+		if(!n1.value.match(nc1))
+		{
+		document.getElementById("ps1").innerHTML="**check phone no.";
+		return 1;
+		}
+		else
+		{
+		document.getElementById("ps1").innerHTML="";
+		return 0;}
+		}
+			function checkemail()
+			{
+			var n1,nc1;
+			n1=document.getElementById("e1");
+			nc1=/^[0-9a-zA-Z._-]+\@[a-zA-Z0-9]+\.[a-zA-Z.]{2,6}$/;
+			if(!n1.value.match(nc1))
+			{
+			document.getElementById("es1").innerHTML="**check email id";
+			return 1;
+			}
+			else
+			{
+			document.getElementById("es1").innerHTML="";
+			return 0;
+			}
+			}
+function bill()
+{
+if(checkname()==0 &&checkemail()==0 &&checknumber()==0)
+{
+	alert("are you agree")
+else
+{
+checkname();
+checkemail();
+checknumber();
+alert("plese check entered data")
+}
+}}
+</script>
+<style>
+
+
+
+</style>
+<div id="b6">
+	<img src="hlp.png" height="50%" width="100%"><br><br>
+	<font color="white" size="5">&nbsp;&nbsp; WhatsApp.: +919329763033 <br>&nbsp;&nbsp;
+		Call On.: &nbsp;&nbsp;&nbsp;&nbsp;+917440238880 <br>&nbsp;&nbsp; Email Id.: &nbsp;helpquick2255@gmail.com
+	<br> 
+		near of idrishiya tanzim school g.t. road sentral street ranchi.</font>
+</div>
+<center>
+<div id="b5">
+	<font color="black" size="8">if have your any complan so your contact us .. and we are resolve that emidiatly</font>
+</div>
+</center>
+	<form id="form3">
+<div id="di">
+	<br>
+	<font color="green">*</font>
+	<font color="white">NAME: &nbsp;<input type="text" value="" id="n1" onblur="checkname();"/>
+	<span id="ns1" style="color:red"></span>
+	<br>
+	<br>
+	<font color="green">*</font>PHONE:&nbsp;<input type="text" value="" id="p12"  maxlength="10" onblur="checknumber();"/>
+	<span id="ps1" style="color:red"></span>
+	<br><br>
+	&nbsp;&nbsp;EMAIL: <input type="text" value="" id="e1" onblur="checkemail();"/></font>
+	<span id="es1" style="color:red"></span><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<textarea rows="9" cols="40"></textarea>
+	<button onclick="bill()">COMMENT</button>
+</div>
+	</form>
+
+
+<div id="a606"><font size="6px" face="">Quick Home Reach service</font></div>
+<div id="a1"><img src="photo/call.jpg" width="100%" height="100%"/></div>
+<div id="a"><center>
+	<div id="a10"><big><strong><a href="index.html">HOME</a></strong></big></div>
+	<div id="a11"><big><strong><a href="service.html">SERVICE</a></strong></big></div>
+	<div id="a12"><big><strong><a href="contact.html">CONTACT</a></strong></big></div>
+	<div id="a13"><big><strong><a href="abut.html">ABOUT US</a></strong></big></div>
+	<div id="a14"><big><strong><a href="job.html">JOB</a></strong></big></div>
+	<div id="a15"><img src="photo/hlp.png" height="100%" width="100%"/></div></center>
+</div>
+<div id="b4"><marquee scrollamount="4"><strong><font face="" size="5px">contect for job post abelable alwes any time</font>
+	conntect us<font face="" size="5px" color="blue"> +919329763033</font>Email <font face="" size="5px" color="blue">helpquick2255@gmail.com</font></strong>
+	</marquee>
+</div>
+</body>
+</html>
